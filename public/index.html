@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </style>
+</head>
+<body>
+    <h1>The Weather App</h1>
+    <div>
+        <a href="/">check in</a> | <a href="/checkins">view checkins</a>
+    </div>
+    <p> 
+        The weather here at <span id="latitude"></span>&deg;,
+        <span id="longitude"></span>&deg; is <span id="summary"></span> with
+        a temperature of <span id="temperature"></span>&deg; C. The concentration of
+        particulate matter (<span id="aq_parameter"></span>) is
+        <span id="aq_value"></span> <span id="aq_units"></span> last read on
+        <span id="aq_date"></span>.
+    </p>
+    <script src="sketch.js"></script>
+</body>
+</html>
